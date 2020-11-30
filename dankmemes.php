@@ -8,6 +8,9 @@
             This site is Password Protected: <input id="pass" type="password" />
             <input type="submit" />
         </form>
+        <?php
+        echo "Hello World";
+        ?>
         <script type="text/javascript">
             var form = document.getElementById("form");
             var password = document.getElementById("pass");
